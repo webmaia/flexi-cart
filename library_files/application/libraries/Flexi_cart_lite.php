@@ -283,7 +283,7 @@ class Flexi_cart_lite
 	 * sub_total
 	 * Returns the sub-total value of the cart (e.g. grand total excluding tax).
 	 */
-	public function sub_total($inc_discount = TRUE, $format = TRUE, $internal_value = FALSE)
+	public function sub_total($inc_discount = TRUE, $format = FALSE, $internal_value = FALSE)
 	{
 		if ($inc_discount)
 		{
